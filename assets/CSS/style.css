@@ -1,115 +1,61 @@
 body{
-    background-color: rgb(118, 118, 190);
+    background-color: rgb(218, 218, 136);
+    margin: 0;
+    padding: 0;
 }
-/* container{
-    background-color: blue;
-    width: 800px;
-} */
-/* header{
-    background-color: gold;
-
-} */
 
 .container div div {
-    background-color:whitesmoke;
+    background-color:rgb(218, 218, 136);
     margin-top: 30px;
 }
+
+.mynav {
+
+  background-color: teal;
+  margin:0;
+  padding:0;
+}
+
 .pictures {
 width: 20%;
 height: 30%;
 }
 
-.project {
-    height: 100px;
-    width: auto;
-}
-
-.footer-text {
- color: black;
- text-align: center;
-}
-
-#my-footer {
-    background-color: whitesmoke;
-    height: 50px;
-    width: 100%;
-    border: solid 6px brown;
-}
-
-.navbar {
-    border: solid 6px brown;
-    height: 50px;
-    margin: 0 0 30px 0;
-    background-color: salmon;
-}
 
 .navbar-brand {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.footer-port {
+footer {
 
     background-color: whitesmoke;
     height: 50px;
     width: 100%;
-    border: solid 6px brown;
-
+    border: solid 6px whitesmoke;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:  #006699;
+    text-align: center;
 }
 
-body {
-    background-image: url('../images/nice_snow.png');
-  }
-  
-  #heading {
-    border-bottom: 2px solid #777777;
-  }
-  
-  
-  
-  /* Navigation */
-  a {
-    color:#777777;
-    padding: 10px;
-    margin: 10px;
-    text-decoration: none;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 200%;
-    font-weight:bold; 
-  }
   
   a:hover {
-    background-color: #006699;
-    color: white;
-  } 
-  
-  
-  
-  /* header*/
-  h1 {
-  color: #006699;
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 350%;
-  font-weight:bold; 
+    background-color: rgb(218, 218, 136);
   }
+     
   
-  
-  
-  /* Container with card */
-  .container-fluid {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15%;
-    padding: 2%;
-  }
-  
+   
   
   
   /* Contact header */
   h2 { 
     color: #006699;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 250%;
+    font-size: 30px;
     font-weight:bold; 
   }
   
@@ -121,7 +67,7 @@ body {
     color: #777777;
     font-family: 'Shadows Into Light', cursive;
     font-weight:bold;   
-    font-size: 175%;
+    font-size:10px;
   }
   
   .contact-link {
@@ -138,20 +84,45 @@ body {
   
   
   
-    #footer {
-      clear: both;
-      padding: 15px;
-      background-color: #ebebe0;
-      color: #777777;
-      text-align: center;
-      border-top: 2px solid #777777;
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-    }
 
 .contact {
 
     margin-left: 20px;
+}
+
+.nav-link {
+
+  color:  #006699 !important;
+  font-size: 20px;
+}
+
+.contact-link {
+  
+  font-size: 40px;
+  margin-top: 40px;
+
+}
+
+.contact-about-1{
+  
+  font-size: 15px;
+float: left;
+}
+
+.contact-about-2{
+
+  font-size: 15px;
+  float: left;
+}
+.contact-about-3{
+
+  font-size: 15px;
+  float: left;
+}
+
+
+.contact-about-4{
+
+  font-size: 15px;
+  float: left;
 }
